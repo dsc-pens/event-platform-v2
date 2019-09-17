@@ -1,0 +1,15 @@
+{
+    "name": "event-platform-v2",
+    "version": 2,
+    "alias": ["dscpens-events.now.sh"],
+    "builds": [{ "src": "*.js", "use": "@now/node" }],
+    "env": {
+      
+    },
+    "github": { "autoAlias": true, "enabled": true },
+    "public": true,
+    "regions": ["all"],
+    "routes": [
+      { "src": "/.*", "headers": { "Access-Control-Allow-Origin": "*" } }
+    ]
+  }
