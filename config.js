@@ -1,37 +1,37 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Eventually', // <title>
-  manifestName: 'Eventually',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'DSC PENS Event Platform V2', // <title>
+  manifestName: 'DSCPENS',
+  manifestShortName: 'DSCPENS', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-eventually/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/events-dscpens/`, // This path is subpath of your hosting https://domain/portfolio
   // social
-  heading: 'Eventually',
+  heading: 'DSC Pens Event Platform V2',
   subHeading:
-    "A simple template for telling the world when you'll launch your next big thing.",
+    "A Platform is coming soon, stay update and keep cool ! ",
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: '#',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: '#',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: '#',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: '#',
     },
   ],
 };
