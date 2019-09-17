@@ -1,4 +1,4 @@
-# Project dependencies
+# Project dependencies / dev
 .cache
 node_modules
 yarn-error.log
